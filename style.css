@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    
+}
+.profile{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#Welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 600px;
+    color: white;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#1C415E 0% , #780D6A 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    
+}
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: fantasy;
+    font-weight: 300;
+}
+#Name{
+    font-size: 30px;
+    font-family: monospace;
+    line-height: 1.2;
+    
+    
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: serif;
+}
+
+
+#Bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+    
+    
+}
+.Line{
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+    
+}
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+    
+}
+.Menu{
+    list-style: none;
+    font-family: monospace;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+        
+    
+}
+.links{
+    float: left;
+    color: darkgrey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+
+}
+.links:hover{
+    color: blueviolet;
+    font-size: 25px;
+    
+    
+}
